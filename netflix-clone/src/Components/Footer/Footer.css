@@ -44,3 +44,13 @@
     font-size: 12px;
     margin-bottom:10px;
 }
+/* additional css */
+.footer_data ul li a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline if desired */
+    font-size: 14px;
+  }
+  
+  .footer_data ul li a:hover {
+    color: red; /* Change color on hover */
+  }
