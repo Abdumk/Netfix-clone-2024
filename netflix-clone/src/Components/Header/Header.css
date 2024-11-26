@@ -41,3 +41,76 @@
     cursor: pointer;
     /* background-color: lightgreen; */
 }
+
+
+.mobile-hidden {
+    display: none;
+  }
+  
+  /* Hamburger menu styles */
+  .hamburger-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile_menu {
+    display: flex;
+    background-color: #141414;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .mobile-menu.open {
+    display: block; /* Display menu in mobile view when toggled */
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .mobile_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobile_menu li {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .mobile_menu li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Mobile view styling */
+  @media (max-width: 768px) {
+    .mobile-hidden {
+      display: none;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      cursor: pointer;
+      color: white;
+     
+    }
+  
+    .mobile-menu {
+      display: none; /* Hide menu links by default on mobile */
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .mobile-hidden {
+      display: inline-block; /* Show the menu items in desktop view */
+    }
+  }
