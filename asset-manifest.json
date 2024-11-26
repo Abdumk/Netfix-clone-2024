@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Netfix-clone-2024/static/css/main.8bf84f33.css",
-    "main.js": "/Netfix-clone-2024/static/js/main.b9b81f76.js",
+    "main.css": "/Netfix-clone-2024/static/css/main.32fe9424.css",
+    "main.js": "/Netfix-clone-2024/static/js/main.8391102e.js",
     "static/media/NetflixLogo.png": "/Netfix-clone-2024/static/media/NetflixLogo.303904f75553a51bbf31.png",
     "index.html": "/Netfix-clone-2024/index.html",
-    "main.8bf84f33.css.map": "/Netfix-clone-2024/static/css/main.8bf84f33.css.map",
-    "main.b9b81f76.js.map": "/Netfix-clone-2024/static/js/main.b9b81f76.js.map"
+    "main.32fe9424.css.map": "/Netfix-clone-2024/static/css/main.32fe9424.css.map",
+    "main.8391102e.js.map": "/Netfix-clone-2024/static/js/main.8391102e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf84f33.css",
-    "static/js/main.b9b81f76.js"
+    "static/css/main.32fe9424.css",
+    "static/js/main.8391102e.js"
   ]
 }
