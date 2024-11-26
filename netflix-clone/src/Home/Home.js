@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
     <Header />
-    <Banner />
+     <Banner />{/*<br/><br/><br/><br/><br/><br/> */}
     <RowList />
     <Footer />
     </>
